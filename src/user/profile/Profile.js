@@ -107,6 +107,11 @@ class Profile extends Component {
                                         <PollList username={this.props.match.params.username} type="USER_VOTED_POLLS" />
                                     </TabPane>
                                 </Tabs>
+                                <button 
+                                    type="submit" 
+                                    class="ant-btn create-poll-form-button ant-btn-primary ant-btn-lg">
+                                        <span>Create New Poll</span>
+                                </button>
                             </div>  
                         </div>  
                     ): null               
